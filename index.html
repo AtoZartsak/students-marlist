@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Mark List</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>HSS Students Mark List</h1>
+
+    <!-- form section starts-->
+     
+    <form id="studentForm">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="regNumber">Reg No.:</label>
+        <input type="text" id="regNumber" required>
+
+        <label for="subject1">English:</label>
+        <input type="number" id="subject1" required>
+
+        <label for="subject2">Hindi:</label>
+        <input type="number" id="subject2" required>
+
+        <label for="subject3">Maths:</label>
+        <input type="number" id="subject3" required>
+
+        <label for="subject4">Chemistry:</label>
+        <input type="number" id="subject4" required>
+
+        <label for="subject5">Physics:</label>
+        <input type="number" id="subject5" required>
+
+        <button type="submit">Add Student</button>
+
+    </form>
+
+    <!-- table section starts -->
+
+    <table id="markTable">
+        <tbody>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>RegNo.</th>
+                    <th>English</th>
+                    <th>Hindi</th>
+                    <th>Maths</th>
+                    <th>Chemistry</th>
+                    <th>Physics</th>
+
+                    <th>Total Marks</th>
+                    <th>Average Marks</th>
+                    <th>Grade</th>
+                    <th>Rank</th>
+                </tr>
+            </thead>
+
+        </tbody>
+    </table>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
